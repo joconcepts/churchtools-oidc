@@ -1,6 +1,6 @@
 # church-oidc
 
-Go port of `../java`: wraps a ChurchTools OAuth "social login" in a minimal
+Go port of [canchanchara/sociallogin-to-openidconnect](https://github.com/canchanchara/sociallogin-to-openidconnect): wraps a ChurchTools OAuth "social login" in a minimal
 OpenID Connect provider, so OIDC-only tools can authenticate against
 ChurchTools. Single static binary, in-memory state, stdlib only (no
 dependencies — the RS256 signing is hand-rolled from `crypto/rsa`).
